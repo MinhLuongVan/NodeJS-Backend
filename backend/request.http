@@ -1,0 +1,25 @@
+GET http://localhost:8000/user
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "username": "Cap  nhat",
+    "password": "Cap nhat"
+}
+
+###
+DELETE http://localhost:8000/user/62c51313ab3a9f53cfa3ed4c
+
+###
+PUT http://localhost:8000/user/
+
+
+Content-Type: application/json
+
+{
+    "username": "Cap nhat 1",
+    "password": "Cap nhat 1"
+}
